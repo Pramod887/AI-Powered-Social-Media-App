@@ -1,73 +1,25 @@
-# AI-Powered Social Media App (Android)
+# AI-Powered Social Media App
 
-An AI-powered Android social media application that helps users create high-quality posts using AI caption enhancement, hashtag suggestions, real-time AR face filters, and an AI chatbot. The app also supports core social media features like posting, liking, commenting, and following users.
+An Android social media application that uses AI and AR to help users create better posts easily.
 
----
+## Features
+- AI caption enhancement & hashtag suggestions
+- Real-time AR face filters
+- AI chatbot for creative help
+- Post, like, comment, and social feed
+- Firebase authentication, database, and storage
 
-## 🚀 Features
+## Tech Stack
+- Android Studio, Java, XML
+- Firebase (Auth, Firestore, Storage)
+- Perplexity AI (AI captions & chatbot)
+- DeepAR / ML Kit (AR filters)
 
-- 🔐 User Authentication (Login / Register)
-- 🖼️ Photo Upload & Social Feed
-- ✍️ AI Caption Enhancement
-- 🔖 Intelligent Hashtag Suggestions
-- 😎 Real-time AR Face Filters (Snapchat-like)
-- 🤖 AI Chatbot for creative help
-- ❤️ Like & Comment on posts
-- ☁️ Firebase Backend (Auth, Database, Storage)
+## How to Run
+1. Open project in Android Studio  
+2. Add `google-services.json` from Firebase  
+3. Add API keys for Perplexity AI / DeepAR  
+4. Sync Gradle and run on emulator or device
 
----
-
-## 🛠️ Tech Stack
-
-### Frontend (Android)
-- Android Studio
-- Java
-- XML (UI Design)
-- RecyclerView
-- Material Design
-
-### Backend & Cloud
-- Firebase Authentication
-- Firebase Firestore (NoSQL Database)
-- Firebase Storage
-- Firebase Cloud Services
-
-### AI & AR
-- Perplexity AI (Caption enhancement & Chatbot)
-- DeepAR / Google ML Kit (AR Face Filters)
-
-### Tools
-- Gradle (Build System)
-- Android Virtual Device (AVD)
-- REST APIs (JSON over HTTPS)
-
----
-
-## 🏗️ Project Architecture
-
-The project follows a **3-Tier Architecture**:
-
-1. **Android Client**
-   - UI, camera, AR filters, chatbot interface
-2. **Backend (Firebase)**
-   - Authentication, database, image storage
-3. **AI Services**
-   - Perplexity AI for captions & chatbot
-   - DeepAR / ML Kit for face detection & filters
-
----
-
-## ▶️ How to Run the Project
-
-### Prerequisites
-- Android Studio installed
-- Java JDK 8 or above
-- Internet connection
-- Firebase account
-- API keys for Perplexity AI and DeepAR (or ML Kit)
-
----
-
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/your-username/AI-Powered-Social-Media-App.git
+## Author
+Pramod Kumar M
