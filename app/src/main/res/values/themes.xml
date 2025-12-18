@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.SocialApp" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/on_primary_color</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorOnSecondary">@color/on_secondary_color</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/surface_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/surface_color</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+
+        <!-- Surface colors -->
+        <item name="colorSurface">@color/surface_color</item>
+        <item name="colorOnSurface">@color/on_surface_color</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+
+        <!-- Background color -->
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="colorOnBackground">@color/on_background_color</item>
+
+        <!-- Error colors -->
+        <item name="colorError">@color/error_color</item>
+        <item name="colorOnError">@color/on_error_color</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="colorOnErrorContainer">@color/on_error_container</item>
+
+        <!-- Outline colors -->
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+
+        <!-- Remove ActionBar for custom toolbar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Enable window content transitions -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+
+        <!-- Custom attributes -->
+<!--        <item name="android:fontFamily">@font/google_sans</item>-->
+    </style>
+
+    <!-- Profile Activity Theme -->
+    <style name="Theme.SocialApp.Profile" parent="Theme.SocialApp">
+        <!-- Enhanced profile-specific colors -->
+        <item name="colorPrimary">@color/profile_gradient_start</item>
+        <item name="colorSecondary">@color/profile_accent</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="android:colorBackground">@color/background_color</item>
+        
+        <!-- Status bar styling for profile -->
+        <item name="android:statusBarColor">@color/profile_gradient_start</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Enhanced Material Design 3 attributes -->
+        <item name="colorPrimaryContainer">@color/profile_gradient_middle</item>
+        <item name="colorSecondaryContainer">@color/profile_warning</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.SocialApp.Splash" parent="Theme.SocialApp">
+        <item name="android:statusBarColor">@color/primary_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
+

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:fitsSystemWindows="true">
+
+    <!-- Camera Surface View -->
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Top Controls (moved down a bit to be under the status bar) -->
+    <LinearLayout
+        android:id="@+id/topControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:paddingTop="?android:attr/actionBarSize"
+        android:background="@drawable/gradient_overlay">
+
+        <!-- NOTE: switchCamera removed from top for easier thumb access -->
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/btnSettings"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/circle_background"
+            android:src="@drawable/ic_settings"
+            android:contentDescription="Settings"
+            android:scaleType="centerInside" />
+
+    </LinearLayout>
+
+    <!-- Bottom Controls -->
+    <LinearLayout
+        android:id="@+id/bottomControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="18dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/gradient_overlay">
+
+        <!-- Moved Switch Camera here for easier thumb access -->
+        <ImageButton
+            android:id="@+id/switchCamera"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle_background"
+            android:src="@drawable/camera_white"
+            android:contentDescription="Switch Camera"
+            android:scaleType="centerInside" />
+
+        <!-- Previous Filter -->
+        <ImageButton
+            android:id="@+id/previousMask"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/circle_background"
+            android:src="@drawable/arrow_left"
+            android:contentDescription="Previous Filter"
+            android:scaleType="centerInside" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <!-- Main Record Button -->
+        <ImageButton
+            android:id="@+id/recordButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/record_button_background"
+            android:src="@drawable/ic_camera"
+            android:contentDescription="Take Photo"
+            android:scaleType="centerInside"
+            android:elevation="8dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <!-- Gallery Button -->
+        <ImageButton
+            android:id="@+id/btnGallery"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/circle_background"
+            android:src="@drawable/ic_gallery"
+            android:contentDescription="Gallery"
+            android:scaleType="centerInside" />
+
+        <!-- Next Filter -->
+        <ImageButton
+            android:id="@+id/nextMask"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/circle_background"
+            android:src="@drawable/arrow_left"
+            android:rotation="180"
+            android:contentDescription="Next Filter"
+            android:scaleType="centerInside" />
+
+    </LinearLayout>
+
+</RelativeLayout>

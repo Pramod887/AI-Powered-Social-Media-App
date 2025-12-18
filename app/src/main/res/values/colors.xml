@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#FFF5F5F5</color>
+    <color name="dark_gray">#FF757575</color>
+
+    <color name="primary_color">#6366F1</color>
+    <color name="primary_dark">#4F46E5</color>
+    <color name="accent_color">#EC4899</color>
+
+    <!-- Text Colors -->
+    <color name="text_dark">#1F2937</color>
+    <color name="text_light">#6B7280</color>
+    <color name="hint_color">#9CA3AF</color>
+
+    <!-- Background Colors -->
+    <color name="white_transparent">#80FFFFFF</color>
+    <color name="white_semi_transparent">#E6FFFFFF</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#667EEA</color>
+    <color name="gradient_end">#764BA2</color>
+
+    <!-- Instagram Gradient Colors -->
+    <color name="insta_orange">#F58529</color>
+    <color name="insta_pink">#DD2A7B</color>
+    <color name="insta_purple">#8134AF</color>
+    <color name="insta_blue">#515BD4</color>
+
+    <!-- Enhanced color palette -->
+    <color name="purple_300">#FF9575CD</color>
+    <color name="purple_600">#FF5E35B1</color>
+    <color name="teal_500">#FF009688</color>
+    <color name="orange_500">#FFFF9800</color>
+
+    <!-- Background colors -->
+    <color name="background_light">#FFF8F9FA</color>
+    <color name="card_background">#FFFFFFFF</color>
+
+    <!-- Status colors -->
+    <color name="success_green">#FF4CAF50</color>
+    <color name="warning_amber">#FFFFC107</color>
+    <color name="error_red">#FFF44336</color>
+    <color name="lighter_orange">#FF8C00</color>
+    <color name="light_surface">#F5F5F5</color>
+
+    <!-- New colors for enhanced design -->
+    <color name="medium_gray">#FF757575</color>
+    <color name="blue_500">#FF2196F3</color>
+
+    <!-- Accent colors -->
+    <color name="surface_white">#FFFFFFFF</color>
+    <color name="text_primary">#FF212121</color>
+    <color name="text_secondary">#FF757575</color>
+    <color name="ripple_color">#33000000</color>
+
+    <!-- Primary Colors -->
+    <color name="on_primary_color">#FFFFFF</color>
+    <color name="primary_container">#EADDFF</color>
+    <color name="on_primary_container">#21005D</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary_color">#625B71</color>
+    <color name="on_secondary_color">#FFFFFF</color>
+    <color name="secondary_container">#E8DEF8</color>
+    <color name="on_secondary_container">#1D192B</color>
+
+    <!-- Surface Colors -->
+    <color name="surface_color">#FFFBFE</color>
+    <color name="on_surface_color">#1C1B1F</color>
+    <color name="surface_variant">#E7E0EC</color>
+    <color name="on_surface_variant">#49454F</color>
+
+    <!-- Background Colors -->
+    <color name="background_color">#F5F2F7</color>
+    <color name="on_background_color">#1C1B1F</color>
+
+    <!-- Error Colors -->
+    <color name="error_color">#B3261E</color>
+    <color name="on_error_color">#FFFFFF</color>
+    <color name="error_container">#F9DEDC</color>
+    <color name="on_error_container">#410E0B</color>
+    <color name="black_semi_transparent">#80333333</color> <!-- Semi-transparent dark gray -->
+    <color name="dark_semi_transparent">#80333333</color> <!-- Semi-transparent dark gray -->
+    <color name="dark_transparent">#33000000</color>
+    <color name="dark_background">#121212</color>
+    <color name="primary_gradient_start">#667eea</color>
+    <color name="primary_gradient_end">#764ba2</color>
+
+    <!-- Glass Morphism -->
+    <color name="glass_background">#80FFFFFF</color>
+    <color name="glass_stroke">#40FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary_dark">#1A1A1A</color>
+    <color name="text_secondary_dark">#666666</color>
+
+    <!-- Surface Colors -->
+    <color name="input_background">#FAFAFA</color>
+    <color name="input_stroke">#E0E0E0</color>
+    <color name="chip_background">#F0F4FF</color>
+
+    <!-- Outline Colors -->
+    <color name="outline">#79747E</color>
+    <color name="outline_variant">#CAC4D0</color>
+
+    <!-- Action colors -->
+    <color name="like_color">#E91E63</color>
+    <color name="like_color_filled">#C2185B</color>
+    <color name="like_color_filled_fallback">#E91E63</color>
+    <color name="like_color_android">#FF5722</color>
+
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_nav_selected">#6750A4</color>
+    <color name="bottom_nav_unselected">#79747E</color>
+
+    <!-- Transparent colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent_black">#80000000</color>
+    <color name="semi_transparent_white">#80FFFFFF</color>
+
+    <color name="secondary_variant">#018786</color>
+
+    <!-- Background & Surface -->
+    <color name="background_primary">#FFFFFF</color> <!-- light background -->
+    <color name="surface_elevated">#E0E0E0</color>
+
+    <!-- Buttons & Ripple -->
+    <color name="send_button_color">#6200EE</color>
+
+    <!-- Profile Enhancement Colors -->
+    <color name="profile_gradient_start">#667eea</color>
+    <color name="profile_gradient_middle">#764ba2</color>
+    <color name="profile_gradient_end">#f093fb</color>
+    <color name="profile_accent">#f5576c</color>
+    <color name="profile_highlight">#4facfe</color>
+    <color name="profile_success">#00f2fe</color>
+    <color name="profile_warning">#ffecd2</color>
+    <color name="profile_info">#fcb69f</color>
+
+</resources>

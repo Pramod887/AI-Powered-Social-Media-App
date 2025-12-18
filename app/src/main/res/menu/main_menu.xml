@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_notifications"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notifications"
+        app:showAsAction="ifRoom" />
+
+    <!-- Theme Options -->
+    <item
+        android:id="@+id/menu_theme_light"
+        android:icon="@drawable/ic_auto_awesome"
+        android:title="Light Theme"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_theme_dark"
+        android:icon="@drawable/ic_auto_awesome"
+        android:title="Dark Theme"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_theme_system"
+        android:icon="@drawable/ic_auto_awesome"
+        android:title="System Default"
+        app:showAsAction="never" />
+
+    <!-- Support Options -->
+    <item
+        android:id="@+id/menu_contact_us"
+        android:icon="@drawable/ic_email"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_privacy_policy"
+        android:icon="@drawable/ic_lock"
+        android:title="Privacy Policy"
+        app:showAsAction="never" />
+
+    <!-- Account Options -->
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>

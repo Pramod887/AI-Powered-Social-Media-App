@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:interpolator/decelerate_quint">
+    
+    <!-- Float upward -->
+    <translate
+        android:duration="800"
+        android:fromYDelta="0"
+        android:toYDelta="-100"
+        android:fromXDelta="0"
+        android:toXDelta="0" />
+    
+    <!-- Scale up while floating -->
+    <scale
+        android:duration="400"
+        android:fromXScale="0.5"
+        android:fromYScale="0.5"
+        android:toXScale="1.2"
+        android:toYScale="1.2"
+        android:pivotX="50%"
+        android:pivotY="50%" />
+    
+    <!-- Scale down while continuing to float -->
+    <scale
+        android:duration="400"
+        android:fromXScale="1.2"
+        android:fromYScale="1.2"
+        android:toXScale="0.8"
+        android:toYScale="0.8"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="400" />
+    
+    <!-- Fade out -->
+    <alpha
+        android:duration="800"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.0" />
+    
+    <!-- Slight rotation for natural movement -->
+    <rotate
+        android:duration="800"
+        android:fromDegrees="0"
+        android:toDegrees="45"
+        android:pivotX="50%"
+        android:pivotY="50%" />
+        
+</set>

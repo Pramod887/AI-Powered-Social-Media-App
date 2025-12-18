@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom Navigation Text Styles -->
+    <style name="BottomNavigationActiveTextAppearance" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+<!--        <item name="fontFamily">@font/google_sans_medium</item>-->
+    </style>
+
+    <style name="BottomNavigationInactiveTextAppearance" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+<!--        <item name="fontFamily">@font/google_sans</item>-->
+    </style>
+
+    <!-- Bottom Navigation Active Indicator -->
+    <style name="App.Widget.BottomNavigationView.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/primary_container</item>
+        <item name="android:width">64dp</item>
+        <item name="android:height">32dp</item>
+    </style>
+
+    <!-- Text Appearance Styles -->
+    <style name="TextAppearance.App.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+<!--        <item name="fontFamily">@font/google_sans_bold</item>-->
+    </style>
+
+    <style name="TextAppearance.App.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+<!--        <item name="fontFamily">@font/google_sans_medium</item>-->
+    </style>
+
+    <style name="TextAppearance.App.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+<!--        <item name="fontFamily">@font/google_sans</item>-->
+    </style>
+
+    <style name="TextAppearance.App.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+<!--        <item name="fontFamily">@font/google_sans</item>-->
+    </style>
+
+
+
+
+</resources>
